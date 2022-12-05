@@ -1,0 +1,57 @@
+*{
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4076  ;
+    color: #fff;
+}
+form{
+    width: 30rem;
+    height: auto;
+    background-color: #6672E4 ;
+}
+h1{
+    margin-top: 3rem;
+    text-align: center;
+    color: #3B4076;
+}
+.value{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
+.value input{
+    width: 80%;
+    padding: 1rem 0.4rem;
+    border-radius: 0.7rem;
+    margin: 2rem 0 0.8rem;
+    background: #3B4076;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.convert{
+    display: flex;
+    justify-content: center;
+}
+.convert .input{
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.answer{
+    text-align: center;
+    margin-top: 1rem;
+    color: crimson;
+    font-size: 2rem;
+}

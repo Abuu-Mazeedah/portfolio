@@ -40,13 +40,12 @@ else{
             const romanNum =['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
             const integer = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
             let reply ="";
-            let i = 0;
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++ Looping Through The Array ++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-           for(let i = 0; i< integer.length; i++){
+           for(let i = 0; i < integer.length; i++){
                 while(filter >= integer[i]){
-                    reply += romanNum[i];
+                   reply += romanNum[i];
                    filter -= integer[i];
                 }
             }

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "Hamming Distance"
+		},
+		{
+			"path": "Higher_Function"
+		},
+		{
+			"path": "Narcissistics_number"
+		},
+		{
+			"path": "Roman_numeral"
+		},
+		{
+			"path": "school website"
+		},
+		{
+			"path": "Bolt website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bolt website"
+	}
+}
